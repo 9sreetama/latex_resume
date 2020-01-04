@@ -1,0 +1,51 @@
+% !TEX TS-program = latex
+% Awesome Source CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/darwiin/awesome-neue-latex-cv
+%
+% Author:
+% Christophe Roger (Darwiin)
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+\documentclass[localFont]{yaac-another-awesome-cv}
+%\long\def\/*#1*/{}
+\name{FirstName}{LastName}
+\tagline{Data Scientist | machine learning/ computer vision/ image processing}
+\photo{3cm}{darwiin.png}
+\socialinfo{
+	\linkedin{linkedinUrl/}
+	\github{githubUrl/}\\
+	\smartphone{(+41)1234567890}
+	\email{MyEmail@gmail.com}
+	\address{MyCity, MyCountry}\\
+	\infos{Additional Info}
+}
+
+% Uncomment to add the bibliography (see section_publications.tex)
+\addbibresource{my_pub.bib}
+
+\begin{document}
+
+	\makecvheader
+
+	\makecvfooter
+		{\textsc{\today}} % \selectlanguage{english}\today
+		{\textsc{FirstName LastName - Resume}}
+		{\thepage}
+
+	\input{section_headline}
+	\input{section_competences}				% Section compétence
+	\input{section_experience_short}		% Section expérience
+	\input{section_scolarite}				% Section scholarité
+	\input{section_invitedTalks.tex}		% Section expérience
+    \input{section_publications.tex}		% Section expérience
+    \input{section_langues}					% Section langues
+    \input{section_others}					% Section langues
+    \input{section_references} 				% Section références
+ 
+
+
+\end{document}
